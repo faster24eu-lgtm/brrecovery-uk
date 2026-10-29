@@ -8,9 +8,9 @@ our %VILLAGE_TO;    # filled by places.pl
 push @main::PAGES, {
   path => '', label => 'Home', nav => '',
   title => 'Car Recovery Peterborough 24/7 | Fixed Price Breakdown Recovery &amp; Transport',
-  description => '24/7 car and van recovery in Peterborough, Cambridgeshire, South Lincolnshire and Rutland. Breakdowns, accidents, auction cars and UK-wide transport. Fixed price, {{PRICE}}. Call {{PHONE}}.',
+  description => '24/7 car and van recovery in Peterborough, Cambridgeshire and South Lincolnshire. Breakdowns, accidents and transport at a fixed price, {{PRICE}}.',
   kicker => 'Peterborough &middot; A1(M) &middot; A47 &middot; 24/7',
-  h1 => 'Car recovery. <span>No waiting game.</span>',
+  h1 => 'Car recovery in Peterborough. <span>No waiting game.</span>',
   lead => 'Broken down, crashed, or bought a car that needs collecting? One call gets you a fixed price and a flatbed on the way, anywhere around Peterborough, the Fens and South Lincolnshire.',
   schema => <<'LD',
 <script type="application/ld+json">
