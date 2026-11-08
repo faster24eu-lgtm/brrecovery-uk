@@ -30,10 +30,12 @@ our $YEAR       = (localtime)[5] + 1900;
 my $ROOT = dirname($Bin);
 our @PAGES;
 
-for my $f (qw(services.pl places.pl towns2.pl more.pl pages.pl guides2.pl)) {
+for my $f (qw(services.pl places.pl towns2.pl more.pl pages.pl guides2.pl extra.pl extra2.pl extra_faq.pl)) {
   my $r = do "$Bin/$f";
   die "$f: $@" if $@;
   die "$f: $!" unless defined $r;
+  # The original towns and roads are "featured": the homepage lists only those ({{LIST:town!}}).
+  if ($f eq 'places.pl') { $_->{featured} = 1 for grep { ($_->{kind} // '') =~ /^(town|road)$/ } @PAGES }
 }
 
 my %BY_PATH = map { $_->{path} => $_ } @PAGES;
@@ -51,13 +53,15 @@ sub fill {
   $s =~ s/\{\{PHONE_HREF\}\}/$PHONE_HREF/g;
   $s =~ s/\{\{WA_HREF\}\}/$WA_HREF/g;
   $s =~ s/\{\{PRICE\}\}/$PRICE/g;
-  $s =~ s/\{\{LIST:(\w+)\}\}/link_list($1)/ge;
+  $s =~ s/\{\{LIST:(\w+!?)\}\}/link_list($1)/ge;
   $s;
 }
 
 sub link_list {
   my $kind = shift;
+  my $feat = $kind =~ s/!$//;
   my @p = grep { ($_->{kind} // '') eq $kind } @PAGES;
+  @p = grep { $_->{featured} } @p if $feat;
   my $h = qq(<ul class="cards">\n);
   for (@p) {
     $h .= sprintf qq(  <li><a href="%s"><strong>%s</strong><span>%s</span></a></li>\n), href($_->{path}), $_->{label}, $_->{card} // '';

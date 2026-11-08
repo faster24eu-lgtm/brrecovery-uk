@@ -24,18 +24,20 @@ push @main::PAGES, {
 LD
   body => <<'HTML',
 <p class="kicker kicker-dark">What we do</p>
-<h2>Built for the roads around Peterborough</h2>
+<h2>24 hour car recovery in Peterborough</h2>
 <p>The A1(M), the A47 and the parkways are fast roads with few safe places to stop. Out in the Fens, roads are narrow with drains on both sides. We send a vetted operator who knows these roads, with a flatbed, a winch and skates, at a price you agree before they set off.</p>
 {{LIST:service}}
 <p class="kicker kicker-dark">Where we work</p>
-<h2>Towns and villages</h2>
-{{LIST:town}}
+<h2>Vehicle recovery across the Fens, Lincolnshire and Northamptonshire</h2>
+{{LIST:town!}}
+<p>Plus Thorney, Yaxley, Crowland, Holbeach, St Ives, Ely, Cambridge, King&rsquo;s Lynn, Boston, Grantham, Kettering and more: <a href="/car-recovery/">see every town we cover</a>.</p>
 <p class="kicker kicker-dark">Before you call</p>
-<h2>How the price works</h2>
+<h2>Car recovery prices: agreed before we set off</h2>
 <p>The price depends on distance and the vehicle, and the figure we give you on the phone is the figure you pay. Nights, weekends and bank holidays are covered at the same rate. The <a href="/guides/car-recovery-cost/">car recovery cost guide</a> shows what you should expect to pay across the market, not just with us.</p>
 <p class="kicker kicker-dark">Main roads</p>
-<h2>Road guides</h2>
-{{LIST:road}}
+<h2>Breakdown recovery on the A1(M), A47 and A14</h2>
+{{LIST:road!}}
+<p>More road guides, including the A17, A605, A141, A142, A428, A10 and A43: <a href="/roads/">all road guides</a>.</p>
 HTML
   faq => [
     [ 'How much does car recovery cost in Peterborough?', 'The price depends on distance, the vehicle and whether it rolls, and we give you one fixed figure on the call before anything is booked.' ],
@@ -49,7 +51,7 @@ push @main::PAGES, {
   path => 'services', label => 'Services', nav => 'services', crumbs => [], big => 'Services',
   title => 'Recovery Services Peterborough | Breakdown, Accident, Transport, Auction',
   description => 'Every recovery and transport service we offer around Peterborough: breakdowns, accidents, car transport, auction collection, non-runners, vans, caravans and jump starts.',
-  h1 => 'What we <span>recover</span>',
+  h1 => q(Recovery &amp; towing <span>services</span>),
   lead => 'From a flat battery on the drive to a non-runner from Copart, here is everything our network does, 24 hours a day.',
   body => "{{LIST:service}}\n",
 };
@@ -58,7 +60,7 @@ push @main::PAGES, {
   path => 'car-recovery', label => 'Areas', nav => 'car-recovery', crumbs => [], big => 'Areas',
   title => 'Areas We Cover | Car Recovery Peterborough, Fens, South Lincs, Rutland',
   description => 'Towns and counties we cover for 24/7 car recovery: Peterborough, Stamford, Huntingdon, St Neots, Spalding, Wisbech, March, Corby, Oundle and Rutland.',
-  h1 => 'Where we <span>work</span>',
+  h1 => q(Car recovery <span>areas we cover</span>),
   lead => 'Our base is Peterborough. From there we cover the Fens, South Lincolnshire, North Northamptonshire, Rutland and Huntingdonshire.',
   body => <<'HTML',
 <h2>Towns</h2>
@@ -73,7 +75,7 @@ push @main::PAGES, {
   path => 'roads', label => 'Roads', nav => 'roads', crumbs => [], big => 'Roads',
   title => q(Road Guides | A1(M), A47, A14, A17, A605 &amp; Fen Road Recovery),
   description => 'Junction-by-junction guides to the main roads around Peterborough, with what to do if you break down and how to get recovered.',
-  h1 => 'Know your <span>road</span>',
+  h1 => q(Breakdown recovery <span>road by road</span>),
   lead => 'Telling the operator exactly where you are is the quickest way to get a truck to you. These guides show the junctions and landmarks to give us.',
   body => "{{LIST:road}}\n",
 };
@@ -82,7 +84,7 @@ push @main::PAGES, {
   path => 'guides', label => 'Guides', nav => 'guides', crumbs => [], big => 'Guides', no_cta => 1,
   title => q(Car Recovery &amp; Breakdown Guides | Peterborough),
   description => q(Plain-English guides: recovery costs, breakdowns on the A1, A47 and A14, a car that won&rsquo;t start, wrong fuel, accidents, police pounds and auctions.),
-  h1 => 'Guides',
+  h1 => q(Breakdown &amp; recovery <span>guides</span>),
   lead => 'Straight answers to the questions we get every day.',
   body => "{{LIST:guide}}\n",
 };
@@ -194,7 +196,7 @@ guide(
   card => 'MOT failures, project cars and scrap: what to check before collection.',
   title => 'How to Move a Non-Running Car: Checklist for MOT Fails, Projects &amp; Scrap',
   description => 'Need to move a car that will not start? A checklist for collecting non-runners, project cars and MOT failures, plus the rules if it is going for scrap.',
-  h1 => 'Moving a <span>non-runner</span>',
+  h1 => q(How to move a <span>non-runner</span>),
   lead => 'A car that will not start can still be moved safely on a flatbed. Getting a few things ready makes the collection quick and the price accurate.',
   body => <<'HTML',
 <h2>Check before you call</h2>
@@ -253,7 +255,7 @@ HTML
 };
 
 push @main::PAGES, {
-  path => 'privacy', label => 'Privacy', crumbs => [], no_form => 1, no_cta => 1, big => 'Privacy',
+  path => 'privacy', label => 'Privacy', crumbs => [], no_form => 1, no_cta => 1, noindex => 1, big => 'Privacy',
   title => 'Privacy Notice | Fenline Recovery',
   description => 'How Fenline Recovery uses the details you give us when you call, message or send the quote form.',
   h1 => 'Privacy',

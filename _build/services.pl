@@ -14,17 +14,17 @@ svc(
   service => 'Breakdown recovery',
   title => 'Breakdown Recovery Peterborough | 24/7, Price Agreed Upfront',
   description => '24/7 breakdown recovery in Peterborough, the A1(M) and A47. Price agreed before we set off. Car or van taken home or to your garage. Call {{PHONE}}.',
-  h1 => 'Breakdown recovery, <span>day or night</span>',
+  h1 => q(Breakdown recovery in Peterborough, <span>day or night</span>),
   lead => 'Car died on the Parkway, at the services or on your drive? Tell us where it is and where it should go. You get a fixed price on the call and a flatbed comes to you.',
   body => <<'HTML',
-<h2>How a breakdown recovery works</h2>
+<h2>How 24 hour breakdown recovery works</h2>
 <ol class="steps">
   <li><b>Call or WhatsApp.</b> Give us the location (a postcode, junction number, lay-by or a WhatsApp pin), the vehicle and the problem.</li>
   <li><b>Fixed price.</b> We tell you the price and a realistic arrival time before anything is booked. No meter running.</li>
   <li><b>Truck on the way.</b> The driver calls when close. Stay somewhere safe, behind the barrier if you are on the A1 or A47.</li>
   <li><b>Loaded and delivered.</b> The car goes onto a flatbed, wheels strapped, and is taken home, to your garage or to a dealer.</li>
 </ol>
-<h2>What we move</h2>
+<h2>Cars, vans, 4x4s and EVs: what we tow</h2>
 <p>Cars, small vans up to 3.5 tonnes, 4x4s, SUVs, people carriers, automatics and electric cars. Every vehicle goes on the bed, so automatics and EVs are never towed on their wheels.</p>
 <h2>Tell us this on the call</h2>
 <ul>
@@ -49,7 +49,7 @@ svc(
   service => 'Accident recovery',
   title => 'Accident Recovery Peterborough | Cleared, Stored &amp; Delivered 24/7',
   description => 'Accident recovery in Peterborough, Cambridgeshire and South Lincolnshire. Damaged cars and vans winched, loaded and stored or delivered. Fixed price. Call {{PHONE}}.',
-  h1 => 'Accident recovery, <span>handled calmly</span>',
+  h1 => q(Accident recovery in Peterborough, <span>handled calmly</span>),
   lead => 'After a crash, the last thing you need is a tow company haggling at the roadside. We agree the price on the phone, load the car properly and take it where you choose.',
   body => <<'HTML',
 <h2>First things first</h2>
@@ -76,11 +76,11 @@ svc(
   service => 'Vehicle transport',
   title => 'Car Transport Peterborough | Collection &amp; Delivery Anywhere in the UK',
   description => 'Car and van transport from or to Peterborough. Bought a car privately or from a dealer? We collect it on a flatbed and deliver to your door. Fixed quote. Call {{PHONE}}.',
-  h1 => 'Car transport, <span>door to door</span>',
+  h1 => q(Car transport from Peterborough, <span>door to door</span>),
   lead => 'Bought a car in Leeds, selling one to a buyer in Bristol, or moving house with two cars and one driver? We collect it on a flatbed and deliver it to the door.',
   body => <<'HTML',
 <figure class="pic"><img src="/assets/flatbed-800.jpg" srcset="/assets/flatbed-800.jpg 800w, /assets/flatbed-1600.jpg 1600w" sizes="(min-width: 900px) 640px, 100vw" width="800" height="600" alt="Yellow flatbed truck carrying a blue Mini and towing a white van" loading="lazy"><figcaption>Two vehicles, one trip: a car on the bed and a van on a dolly.</figcaption></figure>
-<h2>Why use a transporter instead of driving it</h2>
+<h2>Vehicle transport instead of driving it</h2>
 <ul>
   <li>No miles added, and no wear on a car you have just paid for.</li>
   <li>Works for cars without MOT, tax or insurance in your name yet.</li>
@@ -108,10 +108,10 @@ svc(
   service => 'Auction vehicle collection',
   title => 'Auction Car Collection | Copart Wisbech, BCA Peterborough &amp; UK-wide',
   description => 'Bought at Copart, BCA or another auction? We collect from Copart Wisbech, BCA Peterborough and sites across the UK, including non-runners. Fixed price. Call {{PHONE}}.',
-  h1 => 'Auction collection, <span>before storage fees bite</span>',
+  h1 => q(Auction car collection, <span>before storage fees bite</span>),
   lead => 'Won a car at auction and the clock on storage charges is ticking? Send us the lot number and the release details and we collect it, runner or not.',
   body => <<'HTML',
-<h2>Local auction sites we collect from</h2>
+<h2>Copart and BCA collection near Peterborough</h2>
 <ul>
   <li><b>Copart Wisbech</b>, a big source of salvage and Cat N/S cars in the Fens.</li>
   <li><b>BCA Peterborough</b>, used for dealer and ex-fleet stock.</li>
@@ -138,7 +138,7 @@ svc(
   service => 'Non-running vehicle transport',
   title => 'Non-Runner Car Transport Peterborough | MOT Fails, Projects, Scrap',
   description => 'Need to move a car that will not run? We collect non-runners, MOT failures, project and SORN cars from Peterborough and around, and deliver to a garage, buyer or scrap yard.',
-  h1 => 'Non-runners, <span>moved properly</span>',
+  h1 => q(Non-runner car transport, <span>done properly</span>),
   lead => 'Failed its MOT, sat on the drive for two years, or sold for spares? A car that will not start can still go onto a flatbed. We bring the winch.',
   body => <<'HTML',
 <h2>Common non-runner jobs</h2>
@@ -165,10 +165,10 @@ svc(
   service => 'Van recovery',
   title => 'Van Recovery Peterborough | Transit, Sprinter, LWB up to 3.5t, 24/7',
   description => 'Van breakdown and accident recovery in Peterborough and across Cambridgeshire. Transits, Sprinters, LWB vans up to 3.5 tonnes. Fixed price, 24/7. Call {{PHONE}}.',
-  h1 => 'Van recovery, <span>load and all</span>',
+  h1 => q(Van recovery in Peterborough, <span>load and all</span>),
   lead => 'A broken-down van is lost money every hour. We recover vans up to 3.5 tonnes, long wheelbase included, and get it to your garage or depot fast.',
   body => <<'HTML',
-<h2>Vans we recover</h2>
+<h2>Van and light commercial recovery</h2>
 <p>Ford Transit and Transit Custom, Mercedes Sprinter, VW Crafter and Transporter, Vauxhall Vivaro and Movano, Renault Trafic and Master, Citro&euml;n Relay, Peugeot Boxer, Fiat Ducato, and Luton and dropside conversions up to 3.5 tonnes gross.</p>
 <h2>Tell us on the call</h2>
 <ul>
@@ -191,10 +191,10 @@ svc(
   service => 'Caravan and trailer transport',
   title => 'Caravan Transport Peterborough | Touring Caravans &amp; Trailers Moved',
   description => 'Touring caravan and trailer moves around Peterborough, the Fens and Lincolnshire: storage to home, home to site, or to a dealer. Quote on the call: {{PHONE}}.',
-  h1 => 'Caravan &amp; trailer moves',
+  h1 => q(Caravan &amp; trailer <span>transport</span>),
   lead => 'No tow car, or no confidence towing a caravan on the A47? We move touring caravans and small trailers between storage, home, dealers and caravan sites.',
   body => <<'HTML',
-<h2>What we move</h2>
+<h2>Cars, vans, 4x4s and EVs: what we tow</h2>
 <p>Touring caravans and car trailers that are road legal to tow, using a truck fitted with a tow ball. Twin-axle tourers are fine; we check the weight and length on the call.</p>
 <h2>What we do not move</h2>
 <p>Static caravans and park homes need specialist haulage and a site crane or tractor, which our network does not do. We can tell you who to ask.</p>
@@ -216,7 +216,7 @@ svc(
   service => 'Battery jump start',
   title => 'Jump Start Peterborough | 24/7 Flat Battery Call-out',
   description => 'Flat battery in Peterborough? A 24/7 jump start with a professional booster pack, at home, at work or in a car park. If it will not start, we recover it. Call {{PHONE}}.',
-  h1 => 'Flat battery? <span>Jump start</span>',
+  h1 => q(Flat battery? <span>Jump start</span> in Peterborough),
   lead => 'Cold morning, car that will not turn over. A driver with a booster pack gets you going, and if it still will not start, the same truck takes the car to a garage.',
   body => <<'HTML',
 <h2>When a jump start works</h2>
