@@ -24,7 +24,7 @@ our $PHONE_HREF = 'tel:+447520639867';
 our $PHONE      = '07520 639867';
 our $WA_HREF    = 'https://wa.me/447988974609?text=Hi%2C%20I%20need%20vehicle%20recovery.%20My%20location%20is%3A%20';
 our $FORM_TO    = 'faster24eu@gmail.com';    # formsubmit.co recipient
-our $PRICE      = 'from &pound;125';
+our $PRICE      = q(price agreed before we set off);  # never a minimum price
 our $YEAR       = (localtime)[5] + 1900;
 
 my $ROOT = dirname($Bin);
@@ -302,8 +302,10 @@ for my $p (@PAGES) {
 my $sm = qq(<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n);
 $sm .= "  <url><loc>" . url($_->{path}) . "</loc></url>\n" for grep { !$_->{noindex} && !$_->{redirect} } @PAGES;
 $sm .= "</urlset>\n";
-open my $s, '>:encoding(UTF-8)', "$ROOT/sitemap.xml" or die $!; print $s $sm; close $s;
-open my $r, '>', "$ROOT/robots.txt" or die $!; print $r "User-agent: *\nAllow: /\n\nSitemap: $BASE/sitemap.xml\n"; close $r;
+# sitemap-pages.xml is the one submitted to Search Console (2026-11-08): Google had
+# cached /sitemap.xml as the old WordPress sitemap index and never re-read it.
+for my $f (qw(sitemap-pages.xml sitemap.xml)) { open my $s, ">:encoding(UTF-8)", "$ROOT/$f" or die $!; print $s $sm; close $s; }
+open my $r, '>', "$ROOT/robots.txt" or die $!; print $r "User-agent: *\nAllow: /\n\nSitemap: $BASE/sitemap-pages.xml\n"; close $r;
 
 my $bad = 0;
 for my $p (@PAGES) {

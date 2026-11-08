@@ -30,7 +30,7 @@ $t{intro}
 <p>Home, your own garage, a main dealer, a body shop or secure storage. If it is late and your garage is shut, we can keep the car overnight and deliver first thing.</p>
 <h2>Also covering</h2>
 <p>$near.</p>
-<p>Price: local recovery starts {{PRICE}}, and you get a fixed figure on the call. Moving a car further? See <a href="/car-transport/">car transport</a> or the <a href="/guides/car-recovery-cost/">cost guide</a>.</p>
+<p>Price: you get one fixed figure on the call, agreed before we set off. Moving a car further? See <a href="/car-transport/">car transport</a> or the <a href="/guides/car-recovery-cost/">cost guide</a>.</p>
 HTML
     faq => $t{faq},
   };
@@ -40,7 +40,7 @@ town(
   slug => 'peterborough', name => 'Peterborough', big => 'PE1', county => 'Cambridgeshire',
   card => 'The city, the parkways and the A1(M) J15&ndash;17.',
   title => 'Car Recovery Peterborough | 24/7 Breakdown Recovery, Fixed Price',
-  description => '24/7 car recovery in Peterborough: Hampton, Orton, Bretton, Werrington, the parkways and the A1(M). Fixed price {{PRICE}} agreed before dispatch. Call {{PHONE}}.',
+  description => '24/7 car recovery in Peterborough: Hampton, Orton, Bretton, Werrington, the parkways and the A1(M). Price agreed before we set off. Call {{PHONE}}.',
   lead => 'Broken down on Fletton Parkway, stuck in a Queensgate car park or dead on your drive in Hampton? Call with the location and you get a fixed price and a truck on the way.',
   intro => <<'HTML',
 <p>Peterborough is where most of our jobs start. The parkways move fast and have few safe places to stop, the A1(M) runs past the west of the city, and the A47 Soke Parkway carries traffic from the A1 out to Wisbech and King&rsquo;s Lynn. We recover from all of it, plus the estates and car parks in between.</p>
@@ -64,7 +64,7 @@ HTML
   near => [ 'Yaxley', 'Farcet', 'Stilton', 'Eye', 'Thorney', 'Glinton', 'Castor', 'Ailsworth', 'Alwalton', 'Wansford', 'Peakirk', 'Newborough', 'Helpston', 'Northborough' ],
   villages => [qw(peterborough ailsworth alwalton bretton castor chesterton dogsthorpe eye eye-green farcet fengate longthorpe marholm newborough norman-cross northborough paston peakirk glinton etton helpston maxey ufford upton walton woodston yaxley haddon morborne folksworth southorpe bainton pilsgate thorney thorney-toll stilton stibbington sibson water-newton wansford thornhaugh lolham milking-nook northgate gunthorpe werrington orton hampton holme glatton caldecote denton newstead)],
   faq => [
-    [ 'How much is car recovery in Peterborough?', 'Local recovery in Peterborough starts {{PRICE}}. Things that change it: the distance to the drop-off, a non-rolling car, or a low multi-storey that needs a smaller truck. You get the full price on the call.' ],
+    [ 'How much is car recovery in Peterborough?', 'It depends on the job. Things that change the price: the distance to the drop-off, a non-rolling car, or a low multi-storey that needs a smaller truck. You get the full price on the call.' ],
     [ 'Can you get a car out of a multi-storey car park?', 'Yes. Tell us which car park and floor so we send a truck that fits under the barrier height, or the driver uses skates to move the car to a level where it can be loaded.' ],
     [ 'I have broken down on the A1(M) near Peterborough. What should I do?', 'Pull onto the hard shoulder or into a lay-by, put the hazards on, and get everyone out on the verge side and behind the barrier. Then call us with the junction number and direction. If you cannot get off the live lane, call 999.' ],
   ],
@@ -73,7 +73,7 @@ HTML
 town(
   slug => 'stamford', name => 'Stamford', big => 'PE9', county => 'Lincolnshire',
   card => 'A1 north of Wansford, A43 and A606.',
-  description => '24/7 car recovery in Stamford and on the A1 between Wansford and Colsterworth. Fixed price agreed before dispatch, {{PRICE}}. Call {{PHONE}}.',
+  description => '24/7 car recovery in Stamford and on the A1 between Wansford and Colsterworth. Price agreed before we set off. Call {{PHONE}}.',
   lead => 'Stamford sits right on the A1, so many of our calls here are drivers heading north or south who need to get off the road and get the car home.',
   intro => <<'HTML',
 <p>The A1 skirts the west side of Stamford, with junctions for the A43 to Corby, the A606 to Oakham and the A6121 to Bourne. Lay-bys are short and traffic is heavy, so a fast recovery matters. In town, narrow streets around the centre and Burghley Park need a driver who knows how to place a truck.</p>
@@ -98,7 +98,7 @@ town(
   title => 'Car Recovery Market Deeping &amp; Bourne | 24/7 Breakdown Recovery',
   area => 'Market Deeping and Bourne',
   card => 'The Deepings, Bourne and the A15 north of Peterborough.',
-  description => '24/7 car and van recovery in Market Deeping, Deeping St James and Bourne, on the A15 and A1175. Fixed price before dispatch, {{PRICE}}. Call {{PHONE}}.',
+  description => '24/7 car and van recovery in Market Deeping, Deeping St James and Bourne, on the A15 and A1175. Price agreed before we set off. Call {{PHONE}}.',
   lead => 'Between Peterborough and Bourne the A15 is a busy single carriageway with few places to stop. We recover from the road and from the towns and villages either side.',
   intro => <<'HTML',
 <p>The A15 runs north out of Peterborough past Glinton and Northborough, bypasses Market Deeping and continues to Bourne and Sleaford. The A1175 crosses it at the Deepings, linking Stamford to Spalding. Most of our calls here are breakdowns on these two roads, or cars that will not start at home.</p>
@@ -121,7 +121,7 @@ HTML
 town(
   slug => 'spalding', name => 'Spalding', big => 'PE11', county => 'Lincolnshire',
   card => 'Spalding, Holbeach and the A16 &amp; A151.',
-  description => '24/7 car recovery in Spalding, Pinchbeck and Holbeach, on the A16, A151 and A17. Fixed price agreed before dispatch, {{PRICE}}. Call {{PHONE}}.',
+  description => '24/7 car recovery in Spalding, Pinchbeck and Holbeach, on the A16, A151 and A17. Price agreed before we set off. Call {{PHONE}}.',
   lead => 'Long straight fen roads, deep dykes either side and not much passing traffic at night. If you are stuck near Spalding, we get a truck to you and the car home.',
   intro => <<'HTML',
 <p>The A16 links Spalding with Crowland and Peterborough to the south and Boston to the north, bypassing the town on the west. The A151 runs east to Holbeach and the A17, the main lorry route to King&rsquo;s Lynn. Fen roads mean ditch and verge recoveries are common here, so tell us if the car has left the tarmac.</p>
@@ -144,7 +144,7 @@ HTML
 town(
   slug => 'wisbech', name => 'Wisbech', big => 'PE13', county => 'Cambridgeshire',
   card => 'Wisbech, the A47 and Copart Wisbech.',
-  description => '24/7 car recovery in Wisbech and on the A47 between Thorney and King&rsquo;s Lynn, plus Copart Wisbech collections. Fixed price, {{PRICE}}. Call {{PHONE}}.',
+  description => '24/7 car recovery in Wisbech and on the A47 between Thorney and King&rsquo;s Lynn, plus Copart Wisbech collections. Price agreed before we set off. Call {{PHONE}}.',
   lead => 'The A47 east of Peterborough is single carriageway for long stretches, and a breakdown near Guyhirn or Wisbech can leave you far from help. We come out 24/7.',
   intro => <<'HTML',
 <p>The A47 bypasses Wisbech to the south on its way from Peterborough to King&rsquo;s Lynn, crossing the A141 at Guyhirn. Wisbech is also home to a large Copart salvage site, so alongside breakdowns we collect a lot of auction cars here. See <a href="/auction-collection/">auction collection</a>.</p>
@@ -169,7 +169,7 @@ town(
   title => 'Car Recovery March &amp; Whittlesey | 24/7 Breakdown Recovery Fenland',
   area => 'March and Whittlesey',
   card => 'March, Whittlesey, Chatteris and the A605 &amp; A141.',
-  description => '24/7 car recovery in March, Whittlesey and Chatteris, on the A605, A141 and A142. Fixed price agreed before dispatch, {{PRICE}}. Call {{PHONE}}.',
+  description => '24/7 car recovery in March, Whittlesey and Chatteris, on the A605, A141 and A142. Price agreed before we set off. Call {{PHONE}}.',
   lead => 'Fen roads, level crossings and long drops into drains. We recover broken-down and crashed cars around March, Whittlesey and Chatteris, day and night.',
   intro => <<'HTML',
 <p>The A605 runs east from Peterborough through Whittlesey and Coates to meet the A141 between March and Guyhirn. The A141 then carries on south past March to Chatteris and Huntingdon. These are narrow, raised fen roads with water on one or both sides, so verge and ditch recoveries are part of the job here.</p>
@@ -192,7 +192,7 @@ HTML
 town(
   slug => 'huntingdon', name => 'Huntingdon', big => 'PE29', county => 'Cambridgeshire',
   card => 'Huntingdon, St Ives, Ramsey and the A14 &amp; A1.',
-  description => '24/7 car recovery in Huntingdon, St Ives and Ramsey, on the A14, A1 and A141. Fixed price agreed before dispatch, {{PRICE}}. Call {{PHONE}}.',
+  description => '24/7 car recovery in Huntingdon, St Ives and Ramsey, on the A14, A1 and A141. Price agreed before we set off. Call {{PHONE}}.',
   lead => 'Huntingdon sits where the A14 meets the A1, two of the busiest roads in the east. If you break down here we get you off the road and the car to your garage.',
   intro => <<'HTML',
 <p>The A14 now runs south of Huntingdon on the newer bypass towards Cambridge, meeting the A1 near Brampton. The A141 rings the town and runs north to Warboys and Chatteris. We also cover St Ives, Ramsey, Sawtry and the Alconbury area at the south end of the A1(M).</p>
@@ -215,7 +215,7 @@ HTML
 town(
   slug => 'st-neots', name => 'St Neots', big => 'PE19', county => 'Cambridgeshire',
   card => 'St Neots, the Black Cat and the A428.',
-  description => '24/7 car recovery in St Neots, Eaton Socon and Eynesbury, on the A1 and the A428. Fixed price agreed before dispatch, {{PRICE}}. Call {{PHONE}}.',
+  description => '24/7 car recovery in St Neots, Eaton Socon and Eynesbury, on the A1 and the A428. Price agreed before we set off. Call {{PHONE}}.',
   lead => 'With the A1 to the west and the A428 to Cambridge, St Neots sees a lot of breakdowns on through traffic. We recover from both, and from the town itself.',
   intro => <<'HTML',
 <p>The A1 passes the west side of St Neots, with the Black Cat junction to the south where it meets the A421 to Bedford. The A428 runs east to Cambridge. With roadworks around the Black Cat and the A428 in recent years, lane closures and narrow lanes make a quick recovery even more important.</p>
@@ -237,7 +237,7 @@ HTML
 town(
   slug => 'oundle', name => 'Oundle', big => 'PE8', county => 'Northamptonshire',
   card => 'Oundle, the Nene valley and the A605.',
-  description => '24/7 car recovery in Oundle and the Nene valley villages, on the A605 and A427. Fixed price agreed before dispatch, {{PRICE}}. Call {{PHONE}}.',
+  description => '24/7 car recovery in Oundle and the Nene valley villages, on the A605 and A427. Price agreed before we set off. Call {{PHONE}}.',
   lead => 'Country lanes, narrow stone villages and the A605 to Peterborough. If your car stops anywhere around Oundle, we send a truck that fits.',
   intro => <<'HTML',
 <p>The A605 bypasses Oundle to the east and runs north to the A1(M) at junction 17, and south to Thrapston and the A14. The A427 heads west to Corby. Villages along the Nene, such as Fotheringhay, Nassington and Warmington, have narrow streets and soft verges, so tell us the exact spot.</p>
@@ -260,7 +260,7 @@ HTML
 town(
   slug => 'corby', name => 'Corby', big => 'NN17', county => 'Northamptonshire',
   card => 'Corby, Weldon and the A43 &amp; A6003.',
-  description => '24/7 car recovery in Corby, Weldon and Brigstock, on the A43, A6003 and A427. Fixed price agreed before dispatch, {{PRICE}}. Call {{PHONE}}.',
+  description => '24/7 car recovery in Corby, Weldon and Brigstock, on the A43, A6003 and A427. Price agreed before we set off. Call {{PHONE}}.',
   lead => 'Corby&rsquo;s industrial estates and the A43 to Stamford and Kettering keep our trucks busy. We recover cars and vans across the town and the villages around it.',
   intro => <<'HTML',
 <p>The A43 runs past Corby on its way from Kettering to the A1 at Stamford. The A6003 heads north to Uppingham and Oakham, and the A427 east to Oundle. Most van calls here come from the big industrial estates on the edge of town.</p>
@@ -285,7 +285,7 @@ town(
   title => 'Car Recovery Rutland | Oakham &amp; Uppingham 24/7 Breakdown Recovery',
   area => 'Rutland',
   card => 'Oakham, Uppingham and Rutland Water.',
-  description => '24/7 car recovery in Rutland: Oakham, Uppingham and around Rutland Water, on the A606, A6003 and A47. Fixed price before dispatch, {{PRICE}}. Call {{PHONE}}.',
+  description => '24/7 car recovery in Rutland: Oakham, Uppingham and around Rutland Water, on the A606, A6003 and A47. Price agreed before we set off. Call {{PHONE}}.',
   lead => 'Day out at Rutland Water and the car will not start? Broken down on the A47 near Uppingham? We cover all of Rutland from our Peterborough and Stamford side.',
   intro => <<'HTML',
 <p>The A606 runs from Stamford past Empingham and the north shore of Rutland Water to Oakham. The A6003 links Oakham with Uppingham and Corby, and the A47 crosses the south of the county past Uppingham on the way to Leicester. Car parks at the reservoir are a regular pick-up, as are breakdowns on the A47 hills.</p>
@@ -430,7 +430,7 @@ $SAFE
 <p>Off the A1 and to your home, your garage or our operator&rsquo;s yard, or on to anywhere in the UK if you are a long way from home. For long runs, see <a href="/car-transport/">car transport</a>.</p>
 HTML
   faq => [
-    [ 'How much is recovery from the A1(M) near Peterborough?', 'Recovery to an address in Peterborough starts {{PRICE}}. Further than that is priced on distance, and you get a fixed figure before we dispatch.' ],
+    [ 'How much is recovery from the A1(M) near Peterborough?', 'It&rsquo;s priced on the distance from the A1(M) to where the vehicle needs to go, and you get a fixed figure before we dispatch.' ],
     [ 'Can you take me and my car home if I live far away?', 'Yes, we can transport the car and in most cases carry passengers in the truck cab, seat belts permitting. Tell us how many people when you call.' ],
   ],
 );

@@ -8,7 +8,7 @@ our %VILLAGE_TO;    # filled by places.pl
 push @main::PAGES, {
   path => '', label => 'Home', nav => '',
   title => 'Car Recovery Peterborough 24/7 | Fixed Price Breakdown Recovery &amp; Transport',
-  description => '24/7 car and van recovery in Peterborough, Cambridgeshire and South Lincolnshire. Breakdowns, accidents and transport at a fixed price, {{PRICE}}.',
+  description => '24/7 car and van recovery in Peterborough, Cambridgeshire and South Lincolnshire. Breakdowns, accidents and transport at a price agreed before we set off.',
   kicker => 'Peterborough &middot; A1(M) &middot; A47 &middot; 24/7',
   h1 => 'Car recovery in Peterborough. <span>No waiting game.</span>',
   lead => 'Broken down, crashed, or bought a car that needs collecting? One call gets you a fixed price and a flatbed on the way, anywhere around Peterborough, the Fens and South Lincolnshire.',
@@ -32,13 +32,13 @@ LD
 {{LIST:town}}
 <p class="kicker kicker-dark">Before you call</p>
 <h2>How the price works</h2>
-<p>Local recovery starts {{PRICE}}. Longer jobs are priced on distance, and the figure we give you on the phone is the figure you pay. Nights, weekends and bank holidays are covered at the same rate. The <a href="/guides/car-recovery-cost/">car recovery cost guide</a> shows what you should expect to pay across the market, not just with us.</p>
+<p>The price depends on distance and the vehicle, and the figure we give you on the phone is the figure you pay. Nights, weekends and bank holidays are covered at the same rate. The <a href="/guides/car-recovery-cost/">car recovery cost guide</a> shows what you should expect to pay across the market, not just with us.</p>
 <p class="kicker kicker-dark">Main roads</p>
 <h2>Road guides</h2>
 {{LIST:road}}
 HTML
   faq => [
-    [ 'How much does car recovery cost in Peterborough?', 'Local recovery starts {{PRICE}}. The final price depends on distance, the vehicle and whether it rolls, and we give you one fixed figure on the call before anything is booked.' ],
+    [ 'How much does car recovery cost in Peterborough?', 'The price depends on distance, the vehicle and whether it rolls, and we give you one fixed figure on the call before anything is booked.' ],
     [ 'Do you work at night and on bank holidays?', 'Yes. The phone is answered 24 hours a day, every day of the year, and the price is the same at 3am as at 3pm.' ],
     [ 'Can you move a car that is not broken down?', 'Yes. We collect and deliver cars and vans anywhere in the UK, including auction cars, private purchases and non-runners.' ],
     [ 'Are you the old BR Recovery?', 'No. This site is run by Fenline Recovery, an independent call-connection service. We are not connected with BR Recovery Ltd, Batista Car-Van-Caravan Transportation, or any other business that used this web address before.' ],
@@ -113,7 +113,7 @@ guide(
     <tr><td>Jump start</td><td>Usually less than a recovery</td></tr>
   </tbody>
 </table>
-<p>Our local recovery starts {{PRICE}}, and we give you a fixed figure on the call for anything longer.</p>
+<p>We give you one fixed figure on the call, agreed before we set off.</p>
 <h2>What pushes the price up</h2>
 <ul>
   <li><b>Distance to the drop-off.</b> The biggest factor by far.</li>

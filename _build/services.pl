@@ -12,8 +12,8 @@ svc(
   path => 'breakdown-recovery', label => 'Breakdown recovery', big => 'Breakdown',
   card => 'Won&rsquo;t start, warning lights, flat battery, snapped belt. Home, garage or our yard.',
   service => 'Breakdown recovery',
-  title => 'Breakdown Recovery Peterborough | 24/7, Fixed Price {{PRICE}}',
-  description => '24/7 breakdown recovery in Peterborough, the A1(M) and A47. Fixed price agreed before dispatch, {{PRICE}}. Car or van taken home or to your garage. Call {{PHONE}}.',
+  title => 'Breakdown Recovery Peterborough | 24/7, Price Agreed Upfront',
+  description => '24/7 breakdown recovery in Peterborough, the A1(M) and A47. Price agreed before we set off. Car or van taken home or to your garage. Call {{PHONE}}.',
   h1 => 'Breakdown recovery, <span>day or night</span>',
   lead => 'Car died on the Parkway, at the services or on your drive? Tell us where it is and where it should go. You get a fixed price on the call and a flatbed comes to you.',
   body => <<'HTML',
@@ -37,7 +37,7 @@ svc(
 <p>If your insurer or breakdown cover is quoting a long wait, you can still book us directly and claim it back where your policy allows. Keep the invoice we send.</p>
 HTML
   faq => [
-    [ 'How much is breakdown recovery in Peterborough?', 'Local recovery inside Peterborough starts {{PRICE}}. Longer distances are priced by the mile, and you get the full price on the call before we dispatch.' ],
+    [ 'How much is breakdown recovery in Peterborough?', 'It&rsquo;s priced on distance and the vehicle, and you get the full price on the call before we dispatch.' ],
     [ 'How quickly can you get to me?', 'Inside Peterborough it is often within the hour, but it depends where the nearest truck is. We give you an honest time when you call, not a guess.' ],
     [ 'Can you take my car to a garage that is closed?', 'Yes, if the garage agrees we can leave it in their car park with the keys through the door, or we can keep it overnight and deliver in the morning.' ],
   ],
