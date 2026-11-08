@@ -71,7 +71,7 @@ HTML
 
 push @main::PAGES, {
   path => 'roads', label => 'Roads', nav => 'roads', crumbs => [], big => 'Roads',
-  title => 'Road Guides | A1(M), A47, A14, A15, A16 &amp; Parkway Breakdown Recovery',
+  title => q(Road Guides | A1(M), A47, A14, A17, A605 &amp; Fen Road Recovery),
   description => 'Junction-by-junction guides to the main roads around Peterborough, with what to do if you break down and how to get recovered.',
   h1 => 'Know your <span>road</span>',
   lead => 'Telling the operator exactly where you are is the quickest way to get a truck to you. These guides show the junctions and landmarks to give us.',
@@ -80,8 +80,8 @@ push @main::PAGES, {
 
 push @main::PAGES, {
   path => 'guides', label => 'Guides', nav => 'guides', crumbs => [], big => 'Guides', no_cta => 1,
-  title => 'Car Recovery Guides | Costs, Auctions, Non-Runners, A1 Breakdowns',
-  description => 'Plain-English guides: what car recovery costs, collecting a car from auction, moving a non-runner, and what to do after breaking down on the A1.',
+  title => q(Car Recovery &amp; Breakdown Guides | Peterborough),
+  description => q(Plain-English guides: recovery costs, breakdowns on the A1, A47 and A14, a car that won&rsquo;t start, wrong fuel, accidents, police pounds and auctions.),
   h1 => 'Guides',
   lead => 'Straight answers to the questions we get every day.',
   body => "{{LIST:guide}}\n",

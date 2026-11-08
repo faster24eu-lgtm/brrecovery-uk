@@ -331,11 +331,19 @@ county(
   <li><a href="/car-recovery/st-neots/"><strong>St Neots</strong><span>A1, A428, the Black Cat</span></a></li>
   <li><a href="/car-recovery/wisbech/"><strong>Wisbech</strong><span>A47, Copart Wisbech</span></a></li>
   <li><a href="/car-recovery/march-and-whittlesey/"><strong>March &amp; Whittlesey</strong><span>A605, A141, Chatteris</span></a></li>
+  <li><a href="/car-recovery/thorney/"><strong>Thorney</strong><span>A47, B1040</span></a></li>
+  <li><a href="/car-recovery/yaxley/"><strong>Yaxley &amp; Farcet</strong><span>A15, A1(M) J16</span></a></li>
+  <li><a href="/car-recovery/sawtry/"><strong>Sawtry &amp; Stilton</strong><span>A1(M) J15</span></a></li>
+  <li><a href="/car-recovery/ramsey/"><strong>Ramsey &amp; Warboys</strong><span>Fen roads, B1040, B1096</span></a></li>
+  <li><a href="/car-recovery/st-ives/"><strong>St Ives</strong><span>A14, A1096, A1123</span></a></li>
+  <li><a href="/car-recovery/chatteris/"><strong>Chatteris</strong><span>A141, A142</span></a></li>
+  <li><a href="/car-recovery/ely/"><strong>Ely</strong><span>A10, A142</span></a></li>
+  <li><a href="/car-recovery/cambridge/"><strong>Cambridge</strong><span>A14, M11, A428</span></a></li>
 </ul>
 <h2>Main roads</h2>
-<p><a href="/roads/a1-a1m/">A1 and A1(M)</a>, <a href="/roads/a14/">A14</a>, <a href="/roads/a47/">A47</a>, <a href="/roads/peterborough-parkways/">Peterborough parkways</a>, plus the A141, A142, A605 and A428.</p>
+<p><a href="/roads/a1-a1m/">A1 and A1(M)</a>, <a href="/roads/a14/">A14</a>, <a href="/roads/a47/">A47</a>, <a href="/roads/peterborough-parkways/">Peterborough parkways</a>, <a href="/roads/a605/">A605</a>, <a href="/roads/a141-a142/">A141 and A142</a>, <a href="/roads/a428/">A428</a> and <a href="/roads/a10/">A10</a>.</p>
 <h2>Cambridge and the south</h2>
-<p>We also take jobs in Cambridge, Ely and the villages around them, usually for transport to a garage or a long-distance delivery. Call and we tell you how soon a truck can be there.</p>
+<p>Cambridge and Ely are further from our Peterborough base, so we give you an honest arrival time on the call. For planned moves, see <a href="/car-transport/">car transport</a>.</p>
 HTML
   faq => [
     [ 'Do you cover all of Cambridgeshire?', 'Yes. Peterborough, Huntingdonshire and Fenland are our busiest areas, and we take jobs in Cambridge and East Cambridgeshire too.' ],
@@ -356,12 +364,18 @@ county(
   <li><a href="/car-recovery/stamford/"><strong>Stamford</strong><span>A1, A43, A606</span></a></li>
   <li><a href="/car-recovery/market-deeping-and-bourne/"><strong>Market Deeping &amp; Bourne</strong><span>A15, A1175, A151</span></a></li>
   <li><a href="/car-recovery/spalding/"><strong>Spalding</strong><span>A16, A151, A17, Holbeach</span></a></li>
+  <li><a href="/car-recovery/crowland/"><strong>Crowland</strong><span>A16, B1040</span></a></li>
+  <li><a href="/car-recovery/holbeach/"><strong>Holbeach</strong><span>A17, A151</span></a></li>
+  <li><a href="/car-recovery/long-sutton/"><strong>Long Sutton &amp; Sutton Bridge</strong><span>A17, Cross Keys bridge</span></a></li>
+  <li><a href="/car-recovery/boston/"><strong>Boston</strong><span>A16, A52, A17</span></a></li>
+  <li><a href="/car-recovery/sleaford/"><strong>Sleaford</strong><span>A15, A17</span></a></li>
+  <li><a href="/car-recovery/grantham/"><strong>Grantham</strong><span>A1, A52, A607</span></a></li>
 </ul>
-<h2>Further north</h2>
-<p>Grantham, Boston and Sleaford are outside our usual patch, but we take transport jobs there and beyond. Call for a price.</p>
+<h2>Roads</h2>
+<p><a href="/roads/a1-a1m/">A1</a>, <a href="/roads/a16-a15/">A15 and A16</a>, <a href="/roads/a17/">A17</a> and <a href="/roads/a43/">A43</a>. Grantham, Boston and Sleaford are further from our base, so we give you an honest arrival time on the call.</p>
 HTML
   faq => [
-    [ 'Do you cover Grantham or Boston?', 'For breakdowns, call and we check whether a truck can reach you quickly. For planned transport to or from there, yes.' ],
+    [ q(Do you cover Grantham or Boston?), q(Yes. Both are further from our base than Stamford and Spalding, so allow a little longer. You hear the price and a realistic arrival time on the call.) ],
   ],
 );
 
@@ -379,9 +393,11 @@ county(
   <li><a href="/car-recovery/corby/"><strong>Corby</strong><span>A43, A6003, A427</span></a></li>
   <li><a href="/car-recovery/oundle/"><strong>Oundle</strong><span>A605, Nene valley villages</span></a></li>
   <li><a href="/car-recovery/rutland/"><strong>Rutland</strong><span>Oakham, Uppingham, Rutland Water</span></a></li>
+  <li><a href="/car-recovery/kettering/"><strong>Kettering</strong><span>A14, A43, A6</span></a></li>
+  <li><a href="/car-recovery/thrapston/"><strong>Thrapston &amp; Raunds</strong><span>A14, A605, A45</span></a></li>
 </ul>
-<h2>Kettering, Wellingborough and Northampton</h2>
-<p>We take jobs further south on request, especially transport to or from Peterborough. Call for a fixed price.</p>
+<h2>Wellingborough and Northampton</h2>
+<p>We take jobs further south on request, especially transport to or from Peterborough. See the <a href="/roads/a43/">A43</a> and <a href="/roads/a605/">A605</a> road guides.</p>
 HTML
   faq => [
     [ 'Do you cover Kettering?', 'Yes, on request. Kettering is on the A14 and A43 and a truck can usually reach it from Corby or Thrapston.' ],

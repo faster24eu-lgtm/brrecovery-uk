@@ -30,7 +30,7 @@ our $YEAR       = (localtime)[5] + 1900;
 my $ROOT = dirname($Bin);
 our @PAGES;
 
-for my $f (qw(services.pl places.pl pages.pl)) {
+for my $f (qw(services.pl places.pl towns2.pl more.pl pages.pl guides2.pl)) {
   my $r = do "$Bin/$f";
   die "$f: $@" if $@;
   die "$f: $!" unless defined $r;
