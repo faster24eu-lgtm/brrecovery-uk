@@ -22,6 +22,7 @@ our $BASE       = 'https://brrecovery.co.uk';
 our $NAME       = 'Fenline Recovery';
 our $PHONE_HREF = 'tel:+447520639867';
 our $PHONE      = '07520 639867';
+our $LASTMOD    = '2026-11-09';   # sitemap lastmod; bump when pages change
 our $WA_HREF    = 'https://wa.me/447988974609?text=Hi%2C%20I%20need%20vehicle%20recovery.%20My%20location%20is%3A%20';
 our $FORM_TO    = 'faster24eu@gmail.com';    # formsubmit.co recipient
 our $PRICE      = q(price agreed before we set off);  # never a minimum price
@@ -284,7 +285,7 @@ sub redirect_page {
   return <<"HTML";
 <!DOCTYPE html>
 <html lang="en-GB"><head><meta charset="UTF-8"><title>Moved</title>
-<link rel="canonical" href="$abs"><meta name="robots" content="noindex">
+<link rel="canonical" href="$abs">
 <meta http-equiv="refresh" content="0; url=$to"></head>
 <body><p>This page has moved: <a href="$to">$abs</a></p></body></html>
 HTML
@@ -304,7 +305,7 @@ for my $p (@PAGES) {
 }
 
 my $sm = qq(<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n);
-$sm .= "  <url><loc>" . url($_->{path}) . "</loc></url>\n" for grep { !$_->{noindex} && !$_->{redirect} } @PAGES;
+$sm .= "  <url><loc>" . url($_->{path}) . "</loc><lastmod>$LASTMOD</lastmod></url>\n" for grep { !$_->{noindex} && !$_->{redirect} } @PAGES;
 $sm .= "</urlset>\n";
 # sitemap-pages.xml is the one submitted to Search Console (2026-11-08): Google had
 # cached /sitemap.xml as the old WordPress sitemap index and never re-read it.

@@ -53,6 +53,7 @@ town(
   <li>Fengate, Lynch Wood, Orton Southgate and Hampton business parks.</li>
   <li>Peterborough Services at A1(M) junction 17.</li>
 </ul>
+<p>Got a van rather than a car? Business vans from Fengate and the Hampton business parks are a big part of our work: see <a href="/van-recovery/">van recovery</a>.</p>
 HTML
   roads => [
     '<b>A1(M)</b> junction 15 (Sawtry), 16 (Norman Cross) and 17 (Peterborough Services)',

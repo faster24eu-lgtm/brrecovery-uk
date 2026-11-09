@@ -16,9 +16,26 @@ push @main::PAGES, {
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Fenline Recovery",
-  "url": "https://brrecovery.co.uk/"
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://brrecovery.co.uk/#website",
+      "name": "Fenline Recovery",
+      "url": "https://brrecovery.co.uk/"
+    },
+    {
+      "@type": ["AutomotiveBusiness", "EmergencyService"],
+      "@id": "https://brrecovery.co.uk/#business",
+      "name": "Fenline Recovery",
+      "url": "https://brrecovery.co.uk/",
+      "telephone": "+447520639867",
+      "openingHours": "Mo-Su 00:00-23:59",
+      "areaServed": [
+        { "@type": "City", "name": "Peterborough" },
+        { "@type": "AdministrativeArea", "name": "Cambridgeshire" }
+      ]
+    }
+  ]
 }
 </script>
 LD
