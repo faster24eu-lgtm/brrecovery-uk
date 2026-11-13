@@ -9,7 +9,7 @@ my $SAFE2 = <<'HTML';
   <li><b>Get off the road</b> if the car still moves: lay-by, verge, slip road or the next village.</li>
   <li><b>Hazards on, everyone out</b> on the side away from traffic, and well away from the car.</li>
   <li><b>Stuck in a live lane or in a ditch with water?</b> Call 999 first.</li>
-  <li><b>Call us</b> with the road, your direction and the last village or junction you passed, or send a WhatsApp pin.</li>
+  <li><b>Call us</b> with the road, your direction and the last village or junction you passed, or share a live location pin.</li>
 </ol>
 HTML
 
@@ -55,7 +55,7 @@ road(
 <p>From Chatteris south-east past Mepal and Sutton to Ely, then on to Soham and Newmarket. Open fen for most of the way to Ely.</p>
 $SAFE2
 <h2>Out on the fen</h2>
-<p>These roads are hard to describe: one stretch looks like the next. A WhatsApp location pin or a what3words address is the quickest way to get a truck to you. See <a href="/guides/sharing-your-location/">how to share your location</a>.</p>
+<p>These roads are hard to describe: one stretch looks like the next. A live location pin or a what3words address is the quickest way to get a truck to you. See <a href="/guides/sharing-your-location/">how to share your location</a>.</p>
 <p>Nearby: <a href="/car-recovery/chatteris/">Chatteris</a>, <a href="/car-recovery/march-and-whittlesey/">March</a>, <a href="/car-recovery/ely/">Ely</a>, <a href="/car-recovery/ramsey/">Warboys</a> and <a href="/car-recovery/huntingdon/">Huntingdon</a>.</p>
 HTML
   faq => [

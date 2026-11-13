@@ -107,7 +107,7 @@ guide(
 <ul>
   <li>Your direction: towards Peterborough or towards Wisbech.</li>
   <li>The last place you passed: Wansford, Castor, Eye, Thorney, Thorney Toll, Guyhirn.</li>
-  <li>Or send a WhatsApp location pin. See <a href="/guides/sharing-your-location/">how to share your location</a>.</li>
+  <li>Or share a live location pin. See <a href="/guides/sharing-your-location/">how to share your location</a>.</li>
 </ul>
 <h2>5. Call us</h2>
 <p>We give you a price and an arrival time before we set off. See the <a href="/roads/a47/">A47 road guide</a> and <a href="/car-recovery/thorney/">Thorney</a>.</p>
@@ -132,7 +132,7 @@ guide(
 <ul>
   <li>Eastbound or westbound.</li>
   <li>The last junction you passed: Thrapston, Brampton, Huntingdon, Swavesey, Girton.</li>
-  <li>Any marker post number, or a WhatsApp pin.</li>
+  <li>Any marker post number, or a live location pin.</li>
 </ul>
 <p>See the <a href="/roads/a14/">A14 road guide</a>, <a href="/car-recovery/huntingdon/">Huntingdon</a> and <a href="/car-recovery/st-ives/">St Ives</a>.</p>
 HTML

@@ -138,7 +138,7 @@ HTML
   near => [ 'Pinchbeck', 'Surfleet', 'Gosberton', 'Cowbit', 'Crowland', 'Moulton', 'Weston', 'Whaplode', 'Holbeach', 'Fleet', 'Gedney', 'Long Sutton' ],
   villages => [qw(spalding wykeham pinchbeck pinchbeck-west pode-hole surfleet surfleet-seas-end gosberton gosberton-clough risegate westhorpe cowbit crowland moulton moulton-chapel moulton-seas-end weston weston-hills whaplode whaplode-drove whaplode-st-catherine holbeach holbeach-bank holbeach-clough holbeach-drove holbeach-st-johns fleet fleet-hargate gedney gedney-hill lutton low-fulney saracens-head loosegate austendike wargate tongue-end guthram-gowt fitton-end begdale)],
   faq => [
-    [ 'Can you pull a car out of a ditch near Spalding?', 'Often, yes, with a winch from the road. Send us a photo on WhatsApp so we can check the angle and send the right truck. Deep water or a roll-over may need a heavy recovery firm, and we tell you if so.' ],
+    [ 'Can you pull a car out of a ditch near Spalding?', 'Often, yes, with a winch from the road. The angle of the car and how deep the ditch is decide which truck is needed. Deep water or a roll-over may need a heavy recovery firm, and we tell you if so.' ],
   ],
 );
 
@@ -277,7 +277,7 @@ HTML
   near => [ 'Weldon', 'Great Oakley', 'Cottingham', 'Gretton', 'Rockingham', 'Brigstock', 'Stanion', 'Deene', 'Bulwick', 'Harringworth', 'Kettering' ],
   villages => [qw(weldon brigstock deene deenethorpe bulwick harringworth blatherwycke laxton lower-benefield upper-benefield brington)],
   faq => [
-    [ 'Do you recover vans from Corby&rsquo;s industrial estates?', 'Yes, vans up to 3.5 tonnes, including long wheelbase. Trade customers can book by WhatsApp and pay on invoice.' ],
+    [ 'Do you recover vans from Corby&rsquo;s industrial estates?', 'Yes, vans up to 3.5 tonnes, including long wheelbase. Trade customers can pay on invoice.' ],
   ],
 );
 

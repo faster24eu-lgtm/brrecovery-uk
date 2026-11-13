@@ -13,11 +13,11 @@ our %EXTRA_FAQ = (
 ],
 'car-recovery/crowland' => [
   [ 'Is the A1073 the same road as the A16 at Crowland?', 'Yes. The Peterborough to Spalding road past Crowland was renumbered as part of the A16 in 2011. Some older sat-navs and maps still call it the A1073, so either name is fine when you call.' ],
-  [ 'How do I tell you where I am on a fen road near Crowland?', 'Send a WhatsApp location pin or a what3words address. Otherwise, tell us the last village or junction you passed and which way you were heading. Fen roads look alike, so a pin saves a lot of time.' ],
+  [ 'How do I tell you where I am on a fen road near Crowland?', 'Share a live location pin or a what3words address. Otherwise, tell us the last village or junction you passed and which way you were heading. Fen roads look alike, so a pin saves a lot of time.' ],
 ],
 'car-recovery/holbeach' => [
   [ 'Can you collect a car from a packhouse car park in Holbeach?', 'Yes. Tell us the company and car park, and let site security know we&rsquo;re coming. Early-morning non-starters at packhouses are one of our most common calls in South Holland.' ],
-  [ 'Do you cover Gedney Hill and Holbeach Drove?', 'Yes, and all the villages around Holbeach. They are a long way from main roads, so a WhatsApp pin helps the driver find you quickly.' ],
+  [ 'Do you cover Gedney Hill and Holbeach Drove?', 'Yes, and all the villages around Holbeach. They are a long way from main roads, so a live location pin helps the driver find you quickly.' ],
 ],
 'car-recovery/sawtry' => [
   [ 'What is the nearest services to Sawtry on the A1(M)?', 'Peterborough Services at junction 17 is the nearest proper service area north of Sawtry. If your car is struggling, it is often safer to come off at junction 15 into Sawtry than to try to reach it.' ],
@@ -88,11 +88,11 @@ our %EXTRA_FAQ = (
   [ 'Is there 24 hour recovery on the A14?', 'Yes, day and night, around Huntingdon, St Ives, Brampton and Thrapston. You hear the price before we set off.' ],
 ],
 'roads/a16-a15' => [
-  [ 'Do you cover the A15 between Bourne and Sleaford?', 'Yes. It is a long road through open country, so a WhatsApp location pin helps the driver find you quickly.' ],
+  [ 'Do you cover the A15 between Bourne and Sleaford?', 'Yes. It is a long road through open country, so a live location pin helps the driver find you quickly.' ],
   [ 'Do you cover the A16 north of Spalding to Boston?', 'Yes, including the Sutterton roundabout where the A16 meets the A17.' ],
 ],
 'roads/peterborough-parkways' => [
-  [ 'Which parkway am I on?', 'If you are not sure, send us a WhatsApp location pin and we&rsquo;ll work it out. Fletton and Frank Perkins are in the south and east, Nene in the west, Soke in the north and Paston to the north-east.' ],
+  [ 'Which parkway am I on?', 'If you are not sure, share a live location pin and we&rsquo;ll work it out. Fletton and Frank Perkins are in the south and east, Nene in the west, Soke in the north and Paston to the north-east.' ],
   [ 'Can you take my car from a parkway to a Peterborough garage?', 'Yes. Most parkway breakdowns end at a garage or dealer in the city. Tell us which one.' ],
 ],
 'roads/a605' => [
@@ -121,7 +121,7 @@ our %EXTRA_FAQ = (
 ],
 'roads' => [
   [ 'Which roads do you cover?', 'The A1 and A1(M), A47, A14, A15, A16, A17, A605, A141, A142, A428, A10, A43 and the Peterborough parkways, plus every road in between.' ],
-  [ 'How do I tell you where I am on a main road?', 'The road, your direction and the last junction or village you passed. A WhatsApp location pin is even better.' ],
+  [ 'How do I tell you where I am on a main road?', 'The road, your direction and the last junction or village you passed. A live location pin is even better.' ],
 ],
 
 # ------------------------------------------------------------- services
@@ -197,7 +197,7 @@ our %EXTRA_FAQ = (
 ],
 'guides/sharing-your-location' => [
   [ 'What is what3words?', 'A free app that gives every 3-metre square in the world a unique three-word address. Read us the three words and we know exactly where you are.' ],
-  [ 'Can you find me without a postcode?', 'Yes. A WhatsApp pin, what3words, a marker post number, or the last junction and your direction all work.' ],
+  [ 'Can you find me without a postcode?', 'Yes. A live location pin, what3words, a marker post number, or the last junction and your direction all work.' ],
 ],
 
 );

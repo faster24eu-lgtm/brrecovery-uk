@@ -45,7 +45,7 @@ HTML
 
 'car-recovery/huntingdon' => <<'HTML',
 <h2>Huntingdon vehicle recovery after the A14 changes</h2>
-<p>Since the new A14 southern bypass opened, the old A14 through Huntingdon has become the A1307, and the viaduct over the railway has gone. Older sat-navs can send drivers the wrong way, and a lot of our calls are from drivers who aren&rsquo;t sure which road they are on. The simplest fix is a WhatsApp location pin: we can see exactly where you are.</p>
+<p>Since the new A14 southern bypass opened, the old A14 through Huntingdon has become the A1307, and the viaduct over the railway has gone. Older sat-navs can send drivers the wrong way, and a lot of our calls are from drivers who aren&rsquo;t sure which road they are on. The simplest fix is a live location pin: we can see exactly where you are.</p>
 <h2>Hinchingbrooke, Brampton and Godmanchester</h2>
 <p>We regularly collect cars from Hinchingbrooke Hospital car parks, the business parks at Stukeley Meadows and around Brampton, and the town centre. Godmanchester and Brampton sit right beside the A14 and A1, so breakdowns on the slip roads are common. Tell us the junction, your direction and whether you&rsquo;re on the A14 or the A1. We take cars to Huntingdon garages and dealers, or home anywhere in the UK.</p>
 HTML
@@ -86,7 +86,7 @@ HTML
 
 'car-recovery-lincolnshire' => <<'HTML',
 <h2>Long distances, quiet nights</h2>
-<p>South Lincolnshire is mostly farmland, with long straight roads between towns and very little lighting at night. A breakdown on the A15, A16 or A17 after dark can leave you a long way from help. Before you call, note the last village you passed and your direction, or send a WhatsApp pin. If you&rsquo;re on a narrow road with a drain alongside, stay out of the car and well away from it while you wait. See <a href="/guides/sharing-your-location/">how to share your location</a>.</p>
+<p>South Lincolnshire is mostly farmland, with long straight roads between towns and very little lighting at night. A breakdown on the A15, A16 or A17 after dark can leave you a long way from help. Before you call, note the last village you passed and your direction, or share a live location pin. If you&rsquo;re on a narrow road with a drain alongside, stay out of the car and well away from it while you wait. See <a href="/guides/sharing-your-location/">how to share your location</a>.</p>
 HTML
 
 'car-recovery-northamptonshire' => <<'HTML',
@@ -309,7 +309,7 @@ HTML
 
 'roads' => <<'HTML',
 <h2>Why road guides?</h2>
-<p>The quickest way to get a truck to you is to tell us exactly where you are. On the A1(M) that means the junction and direction; on a fen road it might mean the last village and a WhatsApp pin. Each guide lists the junctions, landmarks and lay-bys that help the driver find you, plus what to do while you wait. See also <a href="/guides/sharing-your-location/">how to share your location</a>.</p>
+<p>The quickest way to get a truck to you is to tell us exactly where you are. On the A1(M) that means the junction and direction; on a fen road it might mean the last village and a live location pin. Each guide lists the junctions, landmarks and lay-bys that help the driver find you, plus what to do while you wait. See also <a href="/guides/sharing-your-location/">how to share your location</a>.</p>
 HTML
 
 );

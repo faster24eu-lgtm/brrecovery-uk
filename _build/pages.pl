@@ -84,7 +84,7 @@ push @main::PAGES, {
 {{LIST:town}}
 <h2>Counties</h2>
 {{LIST:county}}
-<p>Not listed? We still take transport jobs to and from anywhere in the UK. <a href="/contact-us/">Ask us</a>.</p>
+<p>Not listed? We still take transport jobs to and from anywhere in the UK.</p>
 HTML
 };
 
@@ -174,7 +174,7 @@ guide(
   <li>The last junction you passed (J14 Alconbury to J17 Peterborough on the A1(M)).</li>
   <li>Your direction: northbound or southbound.</li>
   <li>Any lay-by name, services or marker post number.</li>
-  <li>Or send a WhatsApp location pin.</li>
+  <li>Or share a live location pin from your phone&rsquo;s map app.</li>
 </ul>
 <h2>5. Call us</h2>
 <p>We give you a fixed price and an arrival time, and the driver calls you when close. See the <a href="/roads/a1-a1m/">A1(M) junction guide</a> for more detail.</p>
@@ -274,13 +274,11 @@ HTML
 push @main::PAGES, {
   path => 'privacy', label => 'Privacy', crumbs => [], no_form => 1, no_cta => 1, noindex => 1, big => 'Privacy',
   title => 'Privacy Notice | Fenline Recovery',
-  description => 'How Fenline Recovery uses the details you give us when you call, message or send the quote form.',
+  description => 'How Fenline Recovery handles visitor data.',
   h1 => 'Privacy',
   body => <<'HTML',
-<p>When you call, message or send the form, we collect your name, phone number, the vehicle details and the collection and delivery locations. We use them only to arrange your recovery or transport, and we share them only with the operator doing the job.</p>
-<p>The quote form is sent through formsubmit.co, which forwards it to us by email. We keep job records for as long as we need them for accounts and insurance, then delete them.</p>
-<p>You can ask what we hold about you, or ask us to delete it, by calling {{PHONE}}.</p>
-<p>This site does not use advertising or tracking cookies.</p>
+<p>This site does not collect personal details. There are no forms and no accounts, and we don&rsquo;t take bookings through the site.</p>
+<p>This site does not use advertising or tracking cookies. Our host may keep standard server logs (such as IP address and pages visited) for security.</p>
 HTML
 };
 

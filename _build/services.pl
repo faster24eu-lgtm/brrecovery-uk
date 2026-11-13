@@ -19,7 +19,7 @@ svc(
   body => <<'HTML',
 <h2>How 24 hour breakdown recovery works</h2>
 <ol class="steps">
-  <li><b>Call or WhatsApp.</b> Give us the location (a postcode, junction number, lay-by or a WhatsApp pin), the vehicle and the problem.</li>
+  <li><b>Give the location.</b> A postcode, junction number, lay-by or a live location pin, the vehicle and the problem.</li>
   <li><b>Fixed price.</b> We tell you the price and a realistic arrival time before anything is booked. No meter running.</li>
   <li><b>Truck on the way.</b> The driver calls when close. Stay somewhere safe, behind the barrier if you are on the A1 or A47.</li>
   <li><b>Loaded and delivered.</b> The car goes onto a flatbed, wheels strapped, and is taken home, to your garage or to a dealer.</li>
@@ -178,7 +178,7 @@ svc(
 </ul>
 <p>A loaded LWB van needs a bigger bed than a car. Telling us now means the right truck is sent the first time.</p>
 <h2>Trade accounts</h2>
-<p>Fleets, couriers and garages around Peterborough&rsquo;s industrial estates can book by WhatsApp and pay on invoice. Ask about it on the call.</p>
+<p>Fleets, couriers and garages around Peterborough&rsquo;s industrial estates can book on account and pay on invoice.</p>
 HTML
   faq => [
     [ 'Can you recover a van with the load still on it?', 'Usually yes, within the bed&rsquo;s weight limit. Tell us roughly what is on board so we can check before we send a truck.' ],

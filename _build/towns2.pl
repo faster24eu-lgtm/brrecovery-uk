@@ -180,7 +180,7 @@ HTML
   near => [ 'Stilton', 'Glatton', 'Conington', 'Folksworth', 'Holme', 'Woodwalton', 'Alconbury', 'Caldecote' ],
   villages => [qw(sawtry stilton glatton coppingford caldecote denton)],
   faq => [
-    [ 'I have broken down on the A1(M) near Sawtry. How do I tell you where I am?', 'Give us your direction (northbound or southbound), the last junction you passed and any marker post number, or send a WhatsApp location pin.' ],
+    [ 'I have broken down on the A1(M) near Sawtry. How do I tell you where I am?', 'Give us your direction (northbound or southbound), the last junction you passed and any marker post number, or share a live location pin.' ],
   ],
 );
 
@@ -199,7 +199,7 @@ town(
   <li>Cars that won&rsquo;t start in Ramsey, Warboys and Bury.</li>
   <li>Breakdowns on the A141 between Warboys and Chatteris.</li>
 </ul>
-<p>Fen roads are hard to describe. A WhatsApp location pin or a what3words address saves a lot of time. If the car is in water, get out and call 999 first.</p>
+<p>Fen roads are hard to describe. A live location pin or a what3words address saves a lot of time. If the car is in water, get out and call 999 first.</p>
 HTML
   roads => [
     '<b>B1040</b> north to Pondersbridge and Whittlesey',
@@ -259,7 +259,7 @@ town(
   <li>Cars that have slid off a fen road into a verge or drain.</li>
   <li>Breakdowns at the Chatteris bypass roundabouts and in the town.</li>
 </ul>
-<p>Out on the fen, a WhatsApp pin or what3words address is the quickest way for the driver to find you. Tell us which way you were heading.</p>
+<p>Out on the fen, a live location pin or what3words address is the quickest way for the driver to find you. Tell us which way you were heading.</p>
 HTML
   roads => [
     '<b>A141</b> north to March and south-west to Warboys and Huntingdon',
